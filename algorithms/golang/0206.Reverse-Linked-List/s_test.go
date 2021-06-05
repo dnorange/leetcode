@@ -12,5 +12,7 @@ func TestS1(t *testing.T) {
 			},
 		}}
 
+	t.Log(list)
+
 	t.Log(reverseList(list))
 }
